@@ -5,8 +5,8 @@ const ColorButton = (props) => {
     return(
         <main   
             className="squareBoxStyle" 
-            style={{backgroundColor:props.pickedColor}}>
-            
+            onClick={props.getColor}
+            style={{backgroundColor:props.pickedColor}}>            
         </main>
     );
 }
