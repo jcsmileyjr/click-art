@@ -1,0 +1,9 @@
+
+.squareBoxStyle {
+    flex: 1;
+    border: 1px solid black;
+    height: 5vh;
+    min-width: 20vw;
+    max-width: 20vw;
+    margin: 5px 20px 5px 20px;
+}

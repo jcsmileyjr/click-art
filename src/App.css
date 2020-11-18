@@ -1,1 +1,20 @@
 
+#app-title {    
+    text-decoration: underline;
+}
+
+.section-title {
+    color: grey
+}
+
+.centerText, #app-title{
+    text-align: center;
+}
+
+#colorPickerSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
