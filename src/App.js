@@ -31,7 +31,7 @@ function App() {
         </section>
         <h5 className="centerText section-title">Step 2: Click any Circle below to change the Color</h5>
         <section id="art-section">
-          <FaceArt />
+          <FaceArt pickedColor= {currentColor} />
         </section>
       </main>
     </div>
