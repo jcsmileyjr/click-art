@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 
 import ColorButton from './components/ColorButton.js';
+import FaceArt from './components/FaceArt.js';
 
 function App() {
   const [currentColor, setCurrentColor] = useState("");
@@ -30,15 +31,7 @@ function App() {
         </section>
         <h5 className="centerText section-title">Step 2: Click any Circle below to change the Color</h5>
         <section id="art-section">
-          <article className="face-art">
-            <section id="eye-zone">
-              <article className="eye-art"></article>
-              <article className="eye-art"></article>
-            </section>
-            <section id="mouth-zone">
-              <article className="mouth-art"></article>
-            </section>            
-          </article>
+          <FaceArt />
         </section>
       </main>
     </div>
