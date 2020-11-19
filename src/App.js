@@ -28,6 +28,7 @@ function App() {
           <ColorButton pickedColor = "#FC9408" getColor = {() => updateCurrentColor("#FC9408")}/>
           <ColorButton pickedColor = "#FF2504" getColor = {() => updateCurrentColor("#FF2504")}/>          
         </section>
+        <h4 className="centerText section-title">Click any Circle below to change the Color</h4>
         <section id="art-section">
           <article className="face-art">
             <section id="eye-zone">

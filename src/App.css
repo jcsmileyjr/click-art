@@ -34,6 +34,8 @@
     flex-direction: column;
 }
 
+
+
 .eye-art {
     border: 1px solid black;
     border-radius: 50%;
@@ -69,3 +71,40 @@
 }
 
 
+/*large screens*/
+@media only screen and (min-width: 767px) {
+    .face-art {
+        height: 50vh;
+    }
+
+    .eye-art {
+        min-width: 15vw;
+        max-width: 10vw;
+        height: 10vh;
+    }
+
+    .mouth-art{
+        min-width: 25vw;
+        max-width: 25vw;
+        height: 15vh;
+    }
+}
+
+/*larger screens*/
+@media only screen and (min-width: 1125px) {
+    .face-art {
+        height: 50vh;
+    }
+
+    .eye-art {
+        min-width: 10vw;
+        max-width: 10vw;
+        height: 10vh;
+    }
+
+    .mouth-art{
+        min-width: 20vw;
+        max-width: 20vw;
+        height: 15vh;
+    }
+}
