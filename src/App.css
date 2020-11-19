@@ -91,7 +91,7 @@
 }
 
 /*larger screens*/
-@media only screen and (min-width: 1125px) {
+@media only screen and (min-width: 836px) {
     .face-art {
         height: 50vh;
     }

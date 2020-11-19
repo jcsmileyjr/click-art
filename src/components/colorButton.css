@@ -7,3 +7,17 @@
     max-width: 20vw;
     margin: 5px 20px 5px 20px;
 }
+
+/*larger screens*/
+@media only screen and (min-width: 836px) {
+    .squareBoxStyle {
+        min-width: 22vw;
+    }
+}
+
+/*extra-large screens*/
+@media only screen and (min-width: 1400px) {
+    .squareBoxStyle {
+        min-width: 25vw;
+    }
+}
