@@ -15,7 +15,7 @@ function App() {
       <h1 id="app-title" className="centerText">Click Art</h1>
       <main>
         <h4 className="centerText section-title">Click a box to Pick a Color</h4>
-        <section id="colorPickerSection">
+        <section id="color-picker-section">
           <ColorButton pickedColor = "#0FF906" getColor = {() => updateCurrentColor("#0FF906")}/>
           <ColorButton pickedColor = "#009D0A" getColor = {() => updateCurrentColor("#009D0A")}/>
           <ColorButton pickedColor = "#FCFC07" getColor = {() => updateCurrentColor("#FCFC07")}/>
@@ -27,6 +27,17 @@ function App() {
           <ColorButton pickedColor = "#F8D806" getColor = {() => updateCurrentColor("#F8D806")}/>
           <ColorButton pickedColor = "#FC9408" getColor = {() => updateCurrentColor("#FC9408")}/>
           <ColorButton pickedColor = "#FF2504" getColor = {() => updateCurrentColor("#FF2504")}/>          
+        </section>
+        <section id="art-section">
+          <article className="face-art">
+            <section id="eye-zone">
+              <article className="eye-art"></article>
+              <article className="eye-art"></article>
+            </section>
+            <section id="mouth-zone">
+              <article className="mouth-art"></article>
+            </section>            
+          </article>
         </section>
       </main>
     </div>
