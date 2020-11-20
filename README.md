@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Click-Art
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr>
 
-## Available Scripts
+![gif of app](src/assets/click-art-1.gif)
 
-In the project directory, you can run:
+### Table of Contents
 
-### `npm start`
+1. Project Demo Link
+2. Purpose
+3. Motivation
+4. Wireframe
+5. How to play
+6. Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Project Demo Link: [BlackJack App](https://smiley-blackjack-game.netlify.app/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Purpose:
 
-### `npm test`
+Kids coloring web app created with React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Motivation:
 
-### `npm run build`
+The goal was to practice building apps in shorter time periods with React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### WireFrame
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screen-shot of Wireframe in use](src/assets/Color-Art-Mobile.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How to play:
 
-### `npm run eject`
+- User will click on a color pallette to select a color
+- User will click on a circle to fill in its background color with the selected color
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### This app was built with the following technologies:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**React:** JavaScript front-end library for building user interfaces
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Git-Hub:** Web-based version control repository and Internet hosting service
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Abode XD** A wire-framing tool used to create a mockup/visual of what is to be coded
 
-## Learn More
+**JavaScript:** Object-oriented programming language for web pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**HTML:** Mark-up language for creating web pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**CSS:** A formatting language for styling web pages
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Created by JC Smiley in November of 2020_
